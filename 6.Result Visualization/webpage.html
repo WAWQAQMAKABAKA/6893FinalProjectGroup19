@@ -1,0 +1,126 @@
+<!-- diffrent tabs for each section -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stance Analysis Dashboard</title>
+  <link rel="stylesheet" href="styles.css"> <!-- style page -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="dataset.js" defer></script>
+  <script src="countryStance.js" defer></script><!-- tab4, to show how differen countries stances changes over time -->
+  <script src="stance.js" defer></script> <!-- tab3, to show how differen msin stream media stances changes over time -->
+  <script src="network.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Stance Detection Dashboard</h1>
+    <nav>
+      <ul class="tabs"> <!-- diffrent tabs for each section -->
+        <li><a href="#" data-tab="about">About Project</a></li>
+        <li><a href="#" data-tab="visualization">About Dataset</a></li>
+        <li><a href="#" data-tab="country-stance">Country Stance</a></li>
+        <li><a href="#" data-tab="network">Stance Network</a></li>
+        <li><a href="#" data-tab="stance">Source Stance</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- about the project section -->
+    <!-- briefly explaining the goal of the project and what analysis have been done thru the process -->
+    <section id="about" class="tab-content active">
+      <h2>About the Project</h2>
+      <h3>Goal</h3>
+      <p>This project aimed to analyze mainstream media coverage, specifically focusing on the current international conflict involving the Russia-Ukraine war. While countries have expressed their attitudes through official statements on the Russia-Ukraine conflict, their actions have not always aligned with these declarations. Economic deals, strategic movements, and national political decisions often reveal more complex or even conflicting attitudes.
+        <br>For instance, France initially expressed its strong support for Ukraine, including condemning Russia's actions in official statements. However, France continued significant purchases of Russian natural gas suggested a more complex position towards Russia-Ukraine war. This conflict between diplomatic statements and actions highlights the importance of examining not only official rhetoric but also concrete actions to truly understand a country's stance.
+        <br>Our project focused on monitoring and quantifying stances over time by analyzing mainstream news media coverage of diplomacy, specifically regarding Russia. By uncovering trends within media coverage, this project provided audiences with a data-driven perspective on nations' and media outlets' true stances over time.
+      </p>
+      <h3>Language & Platform</h3>
+      <p>Python, javascript, sql, html, Google cloud platform, Google Colab, Airflow, Hugging Face</p>
+      <h3>Analytics & Algorithms</h3>
+        <p>Analytics: Oversampling, Synonym Replacement, Back-Translation<br>
+          Algorithms: Bert, RoBerta<br>
+          System modules: GPU(A100), CPU, DAGs, Spark<br>
+          Visualization: D3, Apache web server
+        </p>
+    </section>
+
+    <!-- original data visualization part EDA and briefly explaining the dataset -->
+    <section id="visualization" class="tab-content">
+      <h2>Dataset Visualizations</h2>
+      <h3>Dataset Description</h3>
+      <p>
+        The dataset comprises 96,015 news articles related to Russia, Ukraine, or both, collected from February 2022 to October 2024. These articles were collected from mainstream media platforms, including CNN, BBC, The New York Times (NYT), Russia Today (RT), and The Guardian.
+         During the data collection process, our teams utilized the Guardian API and NYT API for direct article retrieval, while Media.org was used to gather URLs from CNN, BBC, and Russia Today. Web scraping techniques such as Beautiful Soup and Requests were applied to extract article news from sources without APIs.  <br>
+         Unfortunately, due to privacy restrictions and limited API requests, we were unable to retrieve the full 29,154 articles from The New York Times.
+      </p>
+      <h3>Trends in Ukraine-Russia War News Coverage Across Mainstream Media Over Time</h3>
+
+      <div>
+        <label for="source-dropdown">Select Sources:</label>
+        <select id="source-dropdown">
+          <option value="all" selected>All</option>
+        </select>
+      </div>
+
+      <div id="line-chart"></div>
+      <div id="legend"></div>
+    </section>
+
+    <!-- country section -->
+    <section id="country-stance" class="tab-content">
+      <h2>Stance Trends in Ukraine-Russia War All Over the World</h2>
+      <p>
+        After conducting stance analysis using RoBERTa and obtaining labeled data, we process the data for each country and each month by summing up the total counts of positive, negative, and neutral stances of each news. Please select different countries and apply your own algorithms to determine the strength of their stance toward Russia during the Russia-Ukraine war. You can then define the stance score using your formula:
+      </p>
+      <p>
+        $$\text{Stance Score} = \text{Count of Neither} \times a + \text{Count of Positive} \times b + \text{Count of Negative} \times c$$
+      </p>
+      <p>
+      (a, b, c are weights of corresponding variables. Usually, we set a to 0, b to a negative value, and c to positive 1 to assess the degree of negative attitudes of various countries toward Russia. In the graph, further away from the x-axis means more hostility towards Russia.)
+     </p>
+      <p>
+        Generally, the overall stance of all countries toward Russia is negative. Therefore, we assign a positive weight to the negative labels to ensure the line chart remains above the horizontal axis. Additionally, by setting one of the weights aa, bb, or cc to 1 while keeping the others at 0, you can observe the trend of the corresponding value over time.
+      </p>
+      <div id="country-stance-chart"></div>
+    </section>
+
+    <section id="network" class="tab-content">
+        <h2>Stance Network in Ukraine-Russia War All Over the World</h2>
+      <p>
+        Please  apply your own algorithms to determine the strength of their stance toward Russia during the Russia-Ukraine war. You can then define the stance score using your formula:
+      </p>
+      <p>
+        $$\text{Stance Score} = \frac{ \text{Count of Positive} \times a  +  \text{Count of Negative} \times b }{\text{Count of Positive} + \text{Count of Negative}}$$
+      </p>
+      <p>
+      (a, b are weights of corresponding variables. Usually, we set a to a negative value, and b to numbers in [0,1] to assess the degree of negative attitudes of various countries toward Russia. In the graph, further away from the node of Russia means more hostility towards Russia.)
+     </p>
+      <div id="network-chart"></div>
+    </section>
+
+    <!-- stance snalysis section -->
+     <!-- source section -->
+    <section id="stance" class="tab-content">
+      <h2>Source Stance</h2>
+      <div>
+        <label for="stance-source-dropdown">Select Source:</label>
+      <select id="stance-source-dropdown"></select>
+      </div>
+      <h3>Stance Trends in Ukraine-Russia War News Coverage Across Mainstream Media Over Time</h3>
+      <div id="stance-chart">
+      <svg width="960" height="10"></svg>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer>
+    <p>Created by Anqi Wu and Zhanghao Ni | Contact: aw3088@columbia.edu</p>
+    <p>This project was conducted by 2024-fall-Group 19 from the Columbia University EECS 6893 course.</p>
+  </footer>
+</body>
+</html>

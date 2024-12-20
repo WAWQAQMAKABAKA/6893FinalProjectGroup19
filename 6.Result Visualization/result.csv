@@ -1,0 +1,443 @@
+,month,origin_country,predicted_label
+0,2022-02,Canada,80
+1,2022-02,China,226
+2,2022-02,France,145
+3,2022-02,Germany,176
+4,2022-02,India,50
+5,2022-02,Italy,94
+6,2022-02,Japan,42
+7,2022-02,Saudi Arabia,10
+8,2022-02,South Korea,29
+9,2022-02,Spain,33
+10,2022-02,Turkey,35
+11,2022-02,United Kingdom,212
+12,2022-02,United States of America,249
+13,2022-03,Canada,82
+14,2022-03,China,482
+15,2022-03,France,250
+16,2022-03,Germany,243
+17,2022-03,India,92
+18,2022-03,Italy,113
+19,2022-03,Japan,74
+20,2022-03,Saudi Arabia,48
+21,2022-03,South Korea,25
+22,2022-03,Spain,40
+23,2022-03,Turkey,75
+24,2022-03,United Kingdom,343
+25,2022-03,United States of America,535
+26,2022-04,Canada,32
+27,2022-04,China,214
+28,2022-04,France,138
+29,2022-04,Germany,157
+30,2022-04,India,52
+31,2022-04,Italy,62
+32,2022-04,Japan,20
+33,2022-04,Saudi Arabia,13
+34,2022-04,South Korea,10
+35,2022-04,Spain,50
+36,2022-04,Turkey,28
+37,2022-04,United Kingdom,170
+38,2022-04,United States of America,252
+39,2022-05,Canada,30
+40,2022-05,China,142
+41,2022-05,France,67
+42,2022-05,Germany,87
+43,2022-05,India,15
+44,2022-05,Italy,41
+45,2022-05,Japan,25
+46,2022-05,Saudi Arabia,0
+47,2022-05,South Korea,14
+48,2022-05,Spain,19
+49,2022-05,Turkey,29
+50,2022-05,United Kingdom,118
+51,2022-05,United States of America,169
+52,2022-06,Canada,27
+53,2022-06,China,140
+54,2022-06,France,123
+55,2022-06,Germany,106
+56,2022-06,India,19
+57,2022-06,Italy,56
+58,2022-06,Japan,47
+59,2022-06,Saudi Arabia,5
+60,2022-06,South Korea,12
+61,2022-06,Spain,76
+62,2022-06,Turkey,39
+63,2022-06,United Kingdom,101
+64,2022-06,United States of America,138
+65,2022-07,Canada,11
+66,2022-07,China,97
+67,2022-07,France,43
+68,2022-07,Germany,16
+69,2022-07,India,26
+70,2022-07,Italy,5
+71,2022-07,Japan,20
+72,2022-07,Saudi Arabia,17
+73,2022-07,South Korea,11
+74,2022-07,Spain,12
+75,2022-07,Turkey,28
+76,2022-07,United Kingdom,78
+77,2022-07,United States of America,87
+78,2022-08,Canada,9
+79,2022-08,China,77
+80,2022-08,France,45
+81,2022-08,Germany,26
+82,2022-08,India,20
+83,2022-08,Italy,17
+84,2022-08,Japan,2
+85,2022-08,Saudi Arabia,5
+86,2022-08,South Korea,11
+87,2022-08,Spain,16
+88,2022-08,Turkey,15
+89,2022-08,United Kingdom,56
+90,2022-08,United States of America,83
+91,2022-09,Canada,28
+92,2022-09,China,168
+93,2022-09,France,85
+94,2022-09,Germany,33
+95,2022-09,India,52
+96,2022-09,Italy,36
+97,2022-09,Japan,33
+98,2022-09,Saudi Arabia,7
+99,2022-09,South Korea,9
+100,2022-09,Spain,16
+101,2022-09,Turkey,14
+102,2022-09,United Kingdom,97
+103,2022-09,United States of America,212
+104,2022-10,Canada,24
+105,2022-10,China,134
+106,2022-10,France,76
+107,2022-10,Germany,74
+108,2022-10,India,21
+109,2022-10,Italy,35
+110,2022-10,Japan,26
+111,2022-10,Saudi Arabia,26
+112,2022-10,South Korea,4
+113,2022-10,Spain,10
+114,2022-10,Turkey,27
+115,2022-10,United Kingdom,96
+116,2022-10,United States of America,176
+117,2022-11,Canada,28
+118,2022-11,China,131
+119,2022-11,France,67
+120,2022-11,Germany,57
+121,2022-11,India,34
+122,2022-11,Italy,35
+123,2022-11,Japan,18
+124,2022-11,Saudi Arabia,25
+125,2022-11,South Korea,24
+126,2022-11,Spain,49
+127,2022-11,Turkey,33
+128,2022-11,United Kingdom,66
+129,2022-11,United States of America,133
+130,2022-12,Canada,23
+131,2022-12,China,148
+132,2022-12,France,98
+133,2022-12,Germany,64
+134,2022-12,India,30
+135,2022-12,Italy,42
+136,2022-12,Japan,47
+137,2022-12,Saudi Arabia,24
+138,2022-12,South Korea,20
+139,2022-12,Spain,42
+140,2022-12,Turkey,14
+141,2022-12,United Kingdom,79
+142,2022-12,United States of America,166
+143,2023-01,Canada,21
+144,2023-01,China,143
+145,2023-01,France,97
+146,2023-01,Germany,127
+147,2023-01,India,25
+148,2023-01,Italy,35
+149,2023-01,Japan,33
+150,2023-01,Saudi Arabia,13
+151,2023-01,South Korea,21
+152,2023-01,Spain,51
+153,2023-01,Turkey,25
+154,2023-01,United Kingdom,92
+155,2023-01,United States of America,177
+156,2023-02,Canada,27
+157,2023-02,China,157
+158,2023-02,France,140
+159,2023-02,Germany,133
+160,2023-02,India,46
+161,2023-02,Italy,66
+162,2023-02,Japan,32
+163,2023-02,Saudi Arabia,5
+164,2023-02,South Korea,11
+165,2023-02,Spain,27
+166,2023-02,Turkey,44
+167,2023-02,United Kingdom,115
+168,2023-02,United States of America,213
+169,2023-03,Canada,18
+170,2023-03,China,181
+171,2023-03,France,92
+172,2023-03,Germany,96
+173,2023-03,India,40
+174,2023-03,Italy,55
+175,2023-03,Japan,23
+176,2023-03,Saudi Arabia,23
+177,2023-03,South Korea,13
+178,2023-03,Spain,10
+179,2023-03,Turkey,25
+180,2023-03,United Kingdom,91
+181,2023-03,United States of America,201
+182,2023-04,Canada,17
+183,2023-04,China,126
+184,2023-04,France,81
+185,2023-04,Germany,89
+186,2023-04,India,17
+187,2023-04,Italy,22
+188,2023-04,Japan,29
+189,2023-04,Saudi Arabia,5
+190,2023-04,South Korea,31
+191,2023-04,Spain,16
+192,2023-04,Turkey,28
+193,2023-04,United Kingdom,74
+194,2023-04,United States of America,153
+195,2023-05,Canada,21
+196,2023-05,China,154
+197,2023-05,France,115
+198,2023-05,Germany,123
+199,2023-05,India,36
+200,2023-05,Italy,80
+201,2023-05,Japan,46
+202,2023-05,Saudi Arabia,10
+203,2023-05,South Korea,4
+204,2023-05,Spain,24
+205,2023-05,Turkey,34
+206,2023-05,United Kingdom,109
+207,2023-05,United States of America,165
+208,2023-06,Canada,26
+209,2023-06,China,135
+210,2023-06,France,83
+211,2023-06,Germany,83
+212,2023-06,India,30
+213,2023-06,Italy,30
+214,2023-06,Japan,42
+215,2023-06,Saudi Arabia,12
+216,2023-06,South Korea,10
+217,2023-06,Spain,17
+218,2023-06,Turkey,23
+219,2023-06,United Kingdom,67
+220,2023-06,United States of America,128
+221,2023-07,Canada,24
+222,2023-07,China,148
+223,2023-07,France,85
+224,2023-07,Germany,86
+225,2023-07,India,27
+226,2023-07,Italy,35
+227,2023-07,Japan,28
+228,2023-07,Saudi Arabia,9
+229,2023-07,South Korea,18
+230,2023-07,Spain,27
+231,2023-07,Turkey,55
+232,2023-07,United Kingdom,99
+233,2023-07,United States of America,190
+234,2023-08,Canada,12
+235,2023-08,China,116
+236,2023-08,France,73
+237,2023-08,Germany,65
+238,2023-08,India,44
+239,2023-08,Italy,41
+240,2023-08,Japan,20
+241,2023-08,Saudi Arabia,18
+242,2023-08,South Korea,21
+243,2023-08,Spain,33
+244,2023-08,Turkey,14
+245,2023-08,United Kingdom,68
+246,2023-08,United States of America,137
+247,2023-09,Canada,31
+248,2023-09,China,177
+249,2023-09,France,78
+250,2023-09,Germany,83
+251,2023-09,India,57
+252,2023-09,Italy,45
+253,2023-09,Japan,42
+254,2023-09,Saudi Arabia,15
+255,2023-09,South Korea,57
+256,2023-09,Spain,21
+257,2023-09,Turkey,18
+258,2023-09,United Kingdom,86
+259,2023-09,United States of America,165
+260,2023-10,Canada,27
+261,2023-10,China,105
+262,2023-10,France,61
+263,2023-10,Germany,61
+264,2023-10,India,25
+265,2023-10,Italy,30
+266,2023-10,Japan,19
+267,2023-10,Saudi Arabia,10
+268,2023-10,South Korea,18
+269,2023-10,Spain,16
+270,2023-10,Turkey,19
+271,2023-10,United Kingdom,45
+272,2023-10,United States of America,127
+273,2023-11,Canada,12
+274,2023-11,China,88
+275,2023-11,France,42
+276,2023-11,Germany,82
+277,2023-11,India,13
+278,2023-11,Italy,23
+279,2023-11,Japan,14
+280,2023-11,Saudi Arabia,5
+281,2023-11,South Korea,6
+282,2023-11,Spain,18
+283,2023-11,Turkey,22
+284,2023-11,United Kingdom,57
+285,2023-11,United States of America,111
+286,2023-12,Canada,16
+287,2023-12,China,126
+288,2023-12,France,99
+289,2023-12,Germany,110
+290,2023-12,India,21
+291,2023-12,Italy,40
+292,2023-12,Japan,31
+293,2023-12,Saudi Arabia,8
+294,2023-12,South Korea,6
+295,2023-12,Spain,30
+296,2023-12,Turkey,21
+297,2023-12,United Kingdom,68
+298,2023-12,United States of America,149
+299,2024-01,Canada,23
+300,2024-01,China,123
+301,2024-01,France,74
+302,2024-01,Germany,73
+303,2024-01,India,36
+304,2024-01,Italy,41
+305,2024-01,Japan,30
+306,2024-01,Saudi Arabia,10
+307,2024-01,South Korea,28
+308,2024-01,Spain,17
+309,2024-01,Turkey,37
+310,2024-01,United Kingdom,78
+311,2024-01,United States of America,132
+312,2024-02,Canada,25
+313,2024-02,China,158
+314,2024-02,France,142
+315,2024-02,Germany,141
+316,2024-02,India,42
+317,2024-02,Italy,46
+318,2024-02,Japan,7
+319,2024-02,Saudi Arabia,14
+320,2024-02,South Korea,20
+321,2024-02,Spain,28
+322,2024-02,Turkey,27
+323,2024-02,United Kingdom,121
+324,2024-02,United States of America,237
+325,2024-03,Canada,23
+326,2024-03,China,193
+327,2024-03,France,234
+328,2024-03,Germany,172
+329,2024-03,India,24
+330,2024-03,Italy,68
+331,2024-03,Japan,17
+332,2024-03,Saudi Arabia,4
+333,2024-03,South Korea,4
+334,2024-03,Spain,38
+335,2024-03,Turkey,20
+336,2024-03,United Kingdom,92
+337,2024-03,United States of America,231
+338,2024-04,Canada,11
+339,2024-04,China,153
+340,2024-04,France,83
+341,2024-04,Germany,115
+342,2024-04,India,28
+343,2024-04,Italy,46
+344,2024-04,Japan,32
+345,2024-04,Saudi Arabia,12
+346,2024-04,South Korea,2
+347,2024-04,Spain,29
+348,2024-04,Turkey,17
+349,2024-04,United Kingdom,62
+350,2024-04,United States of America,167
+351,2024-05,Canada,9
+352,2024-05,China,157
+353,2024-05,France,184
+354,2024-05,Germany,129
+355,2024-05,India,12
+356,2024-05,Italy,65
+357,2024-05,Japan,17
+358,2024-05,Saudi Arabia,7
+359,2024-05,South Korea,12
+360,2024-05,Spain,27
+361,2024-05,Turkey,11
+362,2024-05,United Kingdom,110
+363,2024-05,United States of America,219
+364,2024-06,Canada,27
+365,2024-06,China,218
+366,2024-06,France,230
+367,2024-06,Germany,166
+368,2024-06,India,46
+369,2024-06,Italy,106
+370,2024-06,Japan,40
+371,2024-06,Saudi Arabia,23
+372,2024-06,South Korea,24
+373,2024-06,Spain,53
+374,2024-06,Turkey,45
+375,2024-06,United Kingdom,70
+376,2024-06,United States of America,264
+377,2024-07,Canada,20
+378,2024-07,China,137
+379,2024-07,France,115
+380,2024-07,Germany,91
+381,2024-07,India,33
+382,2024-07,Italy,54
+383,2024-07,Japan,23
+384,2024-07,Saudi Arabia,10
+385,2024-07,South Korea,10
+386,2024-07,Spain,40
+387,2024-07,Turkey,12
+388,2024-07,United Kingdom,77
+389,2024-07,United States of America,160
+390,2024-08,Canada,19
+391,2024-08,China,95
+392,2024-08,France,99
+393,2024-08,Germany,47
+394,2024-08,India,17
+395,2024-08,Italy,14
+396,2024-08,Japan,25
+397,2024-08,Saudi Arabia,1
+398,2024-08,South Korea,6
+399,2024-08,Spain,7
+400,2024-08,Turkey,9
+401,2024-08,United Kingdom,56
+402,2024-08,United States of America,112
+403,2024-09,Canada,36
+404,2024-09,China,168
+405,2024-09,France,130
+406,2024-09,Germany,82
+407,2024-09,India,40
+408,2024-09,Italy,26
+409,2024-09,Japan,27
+410,2024-09,Saudi Arabia,8
+411,2024-09,South Korea,19
+412,2024-09,Spain,11
+413,2024-09,Turkey,17
+414,2024-09,United Kingdom,136
+415,2024-09,United States of America,265
+416,2024-10,Canada,16
+417,2024-10,China,119
+418,2024-10,France,90
+419,2024-10,Germany,116
+420,2024-10,India,11
+421,2024-10,Italy,30
+422,2024-10,Japan,23
+423,2024-10,Saudi Arabia,8
+424,2024-10,South Korea,50
+425,2024-10,Spain,28
+426,2024-10,Turkey,11
+427,2024-10,United Kingdom,61
+428,2024-10,United States of America,191
+429,2024-11,Canada,14
+430,2024-11,China,87
+431,2024-11,France,54
+432,2024-11,Germany,70
+433,2024-11,India,18
+434,2024-11,Italy,19
+435,2024-11,Japan,20
+436,2024-11,Saudi Arabia,13
+437,2024-11,South Korea,37
+438,2024-11,Spain,17
+439,2024-11,Turkey,12
+440,2024-11,United Kingdom,22
+441,2024-11,United States of America,109
