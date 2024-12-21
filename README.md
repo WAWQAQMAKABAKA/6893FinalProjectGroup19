@@ -4,6 +4,23 @@ This project aimed to analyze mainstream media coverage, specifically focusing o
 For instance, France initially expressed its strong support for Ukraine, including condemning Russia's actions in official statements. However, France continued significant purchases of Russian natural gas, suggesting a more complex position towards Russia-Ukraine war. This conflict between diplomatic statements and actions highlights the importance of examining not only official rhetoric but also concrete actions to truly understand a country's stance.
 Our project focused on monitoring and quantifying stances over time by analyzing mainstream news media coverage of diplomacy, specifically regarding Russia. By uncovering trends within media coverage, this project provided audiences with a data-driven perspective on nations' and media outlets' true stances over time.
 
+## **Acknowledgment**
+This is a school project from Columbia University, EECS 6893 Big Data Analytics class, Group 19 source code. 
+
+We would like to thank **Professor Dr. Ching-Yung Lin** and **TAs Apurva Patel** and **Linyang He** for their guidance and support throughout this project.
+
+## **Credits**
+This project was primarily developed by:
+- **Anqi Wu**  
+  *Email*: aw3088@columbia.edu  
+
+- **Zhanghao Ni**  
+  *Email*: zn2209@columbia.edu  
+
+Additionally:
+- **Zishun Shen** contributed to the CNN data scraping part, implemented in the file: `1.4_cnn_scrap.py`.
+
+
 ## **Repository Structure**
 
 ### **1. Extracting Data**
@@ -76,26 +93,6 @@ Each script assumes specific file paths for the dataset. Some of the files were 
 - Jupyter Notebook
 - Required Python libraries (listed in respective notebooks/scripts)
 - JavaScript runtime environment for visualization scripts
-
-## **Acknowledgment**
-This is a school project from Columbia University, EECS 6893 Big Data Analytics class, Group 19 source code. 
-
-We would like to thank **Professor Dr. Ching-Yung Lin** and **TAs Apurva Patel** and **Linyang He** for their guidance and support throughout this project.
-
-## **Credits**
-This project was primarily developed by:
-- **Anqi Wu**  
-  *Department of Statistics*  
-  *Columbia University*  
-  *Email*: aw3088@columbia.edu  
-
-- **Zhanghao Ni**  
-  *Department of Statistics*  
-  *Columbia University*  
-  *Email*: zn2209@columbia.edu  
-
-Additionally:
-- **Zishun Shen** contributed to the CNN data scraping part, implemented in the file: `1.4_cnn_scrap.py`.
 
 ## **License**
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
