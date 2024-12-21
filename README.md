@@ -57,9 +57,10 @@ Scripts and data for visualizing analysis results:
 ## **Dataset**
 The dataset used for this project is too large to be uploaded to the GitHub repository. You can access it through the following Google Drive link:
 
-- [Download Dataset](https://drive.google.com/your-dataset-link-here)
+- [Download Dataset]([https://drive.google.com/your-dataset-link-here](https://drive.google.com/drive/folders/1NbjL30mSmH4ERoXnC32lkfyD_AgckPSD?usp=sharing))
 
 ### **Important Notification**
+People with **lionemail access** are able to download and edit this.
 After downloading the dataset, **adjust the file locations** to match the paths expected by the scripts in this repository. 
 Each script assumes specific file paths for the dataset. Some of the files were already upload in their desire folders.
 
